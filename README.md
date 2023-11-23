@@ -1,4 +1,4 @@
-# GPS-AR-Switch TEst23112023
+# GPS-AR-Switch 
 This includes the Unity Setup for locationbased AR, with the ADDITIONAL feature of a switch between the larger scale navigation with GPS and the more detailed tracking via ARFoundation. This is made for theater pieces in public spaces.
 
 Open the DemoScene to see how the elements correlate. 
@@ -14,6 +14,8 @@ map. NOTE: The PointofReference Object needs to be at 0,0,0. To align move the m
 New in this package is the inclusion of ARFoundation AR Tracking and the SWITCH between the GPS Camera and the ARCore Camera. You can navigate people using the GPS Camera in larger surroundings, like streets or a forest. Once they have arrived a Point Of Interest (POI) you can let them switch to the ARCore Camera, in order to have detailed and anchored view on the content you want them to see or hear or interact with. Once they leave the surroundings of the POI again, you switch back to the GPS navigation.
 
 This package is a further development of "Locationbased AR", you cannot work with both.
+
+This is still in development, thank you for being patient! Updates will follow soon.
 
 # note
 This package is the second of three packages. The third package is "Networked locationbased AR" and will be released in the beginning of 2024. 
