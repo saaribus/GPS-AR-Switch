@@ -3,9 +3,9 @@ This includes the Unity Setup for locationbased AR, with the ADDITIONAL feature 
 
 # Before Downloading Package
 Before you can successfully download the package you have to create a new empty Unity Project (with the Base 3D Template and built in Renderpipeline). I used Unity Editor Version 2021.3.ff LTS. Also make sure that you set your project up for ARFoundation. Meaning you have to import (via Unity Package Manager) the following External Packages:
-  -ARFoundation 4.2.9
-  -ARCore XR Plugin
-  -ARFoundation Extensions v. 1.40.0 via Github: https://github.com/google-ar/arcore-unity-extensions
+  - ARFoundation 4.2.9
+  - ARCore XR Plugin
+  - ARFoundation Extensions v. 1.40.0 via Github: https://github.com/google-ar/arcore-unity-extensions
 
 Then import this package.
 
