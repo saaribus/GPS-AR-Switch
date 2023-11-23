@@ -1,4 +1,4 @@
-# GPS-AR-Switch
+# GPS-AR-Switch TEst23112023
 This includes the Unity Setup for locationbased AR, with the ADDITIONAL feature of a switch between the larger scale navigation with GPS and the more detailed tracking via ARFoundation. This is made for theater pieces in public spaces.
 
 Open the DemoScene to see how the elements correlate. 
