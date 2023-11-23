@@ -1,6 +1,14 @@
 # GPS-AR-Switch 
 This includes the Unity Setup for locationbased AR, with the ADDITIONAL feature of a switch between the larger scale navigation with GPS and the more detailed tracking via ARFoundation. This is made for theater pieces in public spaces.
 
+# Before Downloading Package
+Before you can successfully download the package you have to create a new empty Unity Project (with the Base 3D Template and built in Renderpipeline). I used Unity Editor Version 2021.3.ff LTS. Also make sure that you set your project up for ARFoundation. Meaning you have to import (via Unity Package Manager) the following External Packages:
+  -ARFoundation 4.2.9
+  -ARCore XR Plugin
+  -ARFoundation Extensions v. 1.40.0 via Github: https://github.com/google-ar/arcore-unity-extensions
+
+Then import this package.
+
 Open the DemoScene to see how the elements correlate. 
 
 1) You can and should customize the map, using Open Street Maps, for the area you want people to walk around in. On https://www.openstreetmap.org/ select an area and export it as an .osm file. In order to import it to your unity project convert it to an .obj file, following the instructions on: https://osm2world.org/
