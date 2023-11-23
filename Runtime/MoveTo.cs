@@ -14,6 +14,9 @@ public class MoveTo : MonoBehaviour
     [SerializeField] Transform target;
     private NavMeshAgent agent;
 
+
+    //Hier mache ich extra für Natascha einen Test
+    // und auch ein bisschen für mich natürlich.
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
